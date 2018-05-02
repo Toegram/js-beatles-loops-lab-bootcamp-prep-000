@@ -23,6 +23,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(love) {
   
   let loveArray = [];
+<<<<<<< HEAD
   if (love === 7) {
     for (let loveIndex = 0; loveIndex < 8; loveIndex++) {
       loveArray.push("I love the Beatles!");
@@ -34,4 +35,12 @@ function iLoveTheBeatles(love) {
     
       
 return loveArray;
+=======
+  
+  for (let loveIndex = 0; loveIndex < 8; loveIndex++) {
+      loveArray.push("I love the Beatles!");
+    
+  return loveArray;
+
+>>>>>>> b1f7d748c350ca4d1eaf8b15ac7144b4ba05fca2
 }
